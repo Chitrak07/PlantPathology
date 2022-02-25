@@ -9,7 +9,7 @@ from werkzeug.utils import secure_filename
 app=Flask(__name__)
 
 # load the model
-model=load_model(r'C:\Users\deepa\Desktop\Foliar-diseases-in-Apple-Trees-Prediction-master\models\apple-224.h5')
+model=load_model(r'model.h5')
 
 def model_predict(img_path,model):
     test_image=image.load_img(img_path,target_size=(224,224))
