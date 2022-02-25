@@ -9,7 +9,7 @@ from werkzeug.utils import secure_filename
 app=Flask(__name__)
 
 # load the model
-model=load_model(r'C:\Users\deepa\Desktop\pp\apple3.h5')
+model=load_model(r'apple3.h5')
 
 def model_predict(img_path,model):
     test_image=image.load_img(img_path,target_size=(224,224))
