@@ -1,5 +1,3 @@
-
-from flask import Flask,render_template,request
 import os
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
