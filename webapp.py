@@ -20,7 +20,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html = True)
 st.title('Plant Pathology')
 
 def main() :
-    file_uploaded = st.file_uploader('Choose an image... of Apple Leaf   -> disease whil be Predicted', type = 'jpg')
+    file_uploaded = st.file_uploader('Choose an image... of Apple Leaf   -> disease will be Predicted', type = 'jpg')
     if file_uploaded is not None :
         image = Image.open(file_uploaded)
         st.write("Uploaded Image.")
