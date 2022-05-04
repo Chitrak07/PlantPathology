@@ -73,7 +73,7 @@ a:hover,  a:active {
 </style>
 
 <div class="footer">
-<p align="center"> <a href="#">Developed  by Shubham Vaish</a></p>
+<p align="center"> <a href="#">Developed  by Shubham and Shreya</a></p>
 </div>
         """
 
